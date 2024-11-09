@@ -1179,6 +1179,66 @@ div.person.person5 {
     min-width: 0;
 }
 
+/* Barres du haut */
+.btn-hire-devs .bar {
+    position: absolute;
+    width: 25px;
+    height: 3px;
+    background-color: #cecbcb;
+    transition: 0.3s;
+  }
+  
+  .btn-hire-devs .bar-1-top {
+    transform: rotate(45deg);
+    top: -20px;
+    left: 50%;
+    margin-left: -40px;
+  }
+  
+  .btn-hire-devs .bar-2-top {
+    transform: rotate(90deg);
+    top: -25px;
+    left: 50%;
+    margin-left: -15px;
+  }
+  
+  .btn-hire-devs .bar-3-top {
+    transform: rotate(135deg);
+    top: -20px;
+    left: 50%;
+    margin-left: 10px;
+  }
+  
+  /* Barres du bas */
+  .btn-hire-devs .bar-1-bottom {
+    transform: rotate(135deg);
+    bottom: -20px;
+    left: 50%;
+    margin-left: -40px;
+  }
+  
+  .btn-hire-devs .bar-2-bottom {
+    transform: rotate(90deg);
+    bottom: -25px;
+    left: 50%;
+    margin-left: -15px;
+  }
+  
+  .btn-hire-devs .bar-3-bottom {
+    transform: rotate(45deg);
+    bottom: -20px;
+    left: 50%;
+    margin-left: 10px;
+  }
+  
+  
+  .btn-hire-devs .bar-3 {
+    transform: rotate(135deg);
+    left: 50%;
+    margin-left: 10px; /* Pas de décalage pour le dernier */
+  }
+  
+
 .hire-devs .btn-hire-devs::before {
     content: "";
     position: absolute;
