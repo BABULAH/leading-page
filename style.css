@@ -1020,7 +1020,7 @@ div.person.person5 {
     max-width: 1230px;
     height: 100%;
     /* z-index: 1; */
-    gap: 1rem;
+    gap: 1.8rem;
     
     display: flex;
     box-sizing: content-box;
@@ -1036,6 +1036,7 @@ div.person.person5 {
     height: auto;
     padding: 0;
     width: 380.667px;
+    box-shadow: #343D48;
     /* margin-right: 35px; */
 }
 
